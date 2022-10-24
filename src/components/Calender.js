@@ -20,9 +20,9 @@ const Calender = () => {
   };
   return (
     <div >
-    <h1 style={{color:"black", margin:"auto",textAlign:"center", fontFamily:"Arial, Helvetica, sans-serif ", padding:"10px"}}>GitHub Calender</h1>
+    <h1 style={{color:"black", margin:"auto",textAlign:"center", fontFamily:"Arial, Helvetica, sans-serif ", padding:"15px",fontSize:"2rem"}}>GitHub Calender</h1>
       <GitHubCalendar
-        style={{ margin: "auto", marginBottom:"50px"}}
+        style={{ margin: "auto", marginBottom:"50px",boxShadow:"rgba(0, 0, 0, 0.24) 0px 3px 8px",padding:"2rem",borderRadius:"1rem"}}
         username="ujjwalsingh13feb"
         transformData={selectLastHalfYear}
         blockSize={20}

@@ -5,8 +5,8 @@ const Stats = () => {
   return (
     // streak
     
-    <div style={{  height: "15rem" }}>
-         <h1 style={{color:"black", margin:"auto",textAlign:"center", fontFamily:"Arial, Helvetica, sans-serif ", padding:"10px"}}>GitHub Statistics</h1>
+    <div style={{  height: "15rem"}}>
+         <h1 style={{color:"black", margin:"auto",textAlign:"center", fontFamily:"Arial, Helvetica, sans-serif ", padding:"10px",fontSize:"2rem" }}>GitHub Statistics</h1>
       {/*   <div style={{ width: "40%", margin: "auto"}}>
         <a href="https://github.com/ujjwalsingh13feb">
          <img
@@ -24,6 +24,10 @@ const Stats = () => {
           display: "flex",
           flexDirection: "row",
           margin: "auto",
+          boxShadow:"rgba(0, 0, 0, 0.24) 0px 3px 8px",
+          padding:"1rem",
+          borderRadius:"1rem"
+
         }}
       >
         <a href="https://github.com/ujjwalsingh13feb">

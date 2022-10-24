@@ -25,7 +25,7 @@ const Header = () => {
       <div className='container mx-auto h-full flex items-center justify-between'>
         {/* logo */}
         <a href='#'>
-        <h1>𝒰𝒿𝒿𝓌𝒶𝓁 𝒮𝒾𝓃𝑔𝒽</h1>
+        <h1 style={{fontSize:"2rem"}}>𝒰𝒿𝒿𝓌𝒶𝓁 𝒮𝒾𝓃𝑔𝒽</h1>
         </a>
         {/* nav */}
         <div className='hidden lg:block'>

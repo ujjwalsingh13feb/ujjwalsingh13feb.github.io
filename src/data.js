@@ -22,12 +22,12 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/OLX.png';
+import Project2 from './assets/img/projects/OLX2.png';
+import Project3 from './assets/img/projects/TATA.png';
+import Project4 from './assets/img/projects/TATABODY.png';
+import Project5 from './assets/img/projects/MOVIE.png';
+import Project6 from './assets/img/projects/MOVIE2.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -121,37 +121,38 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
+    name: 'OLX',
     category: 'UI/UX design',
+  
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'OLX',
     category: 'web development',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
+    name: 'TATA1mg',
     category: 'UI/UX design',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
+    name: 'TATA1mg',
     category: 'branding',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
+    name: 'MOVIE_APP',
     category: 'web development',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
+    name: 'MOVIE_APP',
     category: 'web development',
   },
 ];
