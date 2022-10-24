@@ -12,6 +12,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
 import BackTopBtn from './components/BackTopBtn';
+import Stats from './components/Stats';
+import Calender from './components/Calender';
+
 
 const App = () => {
   return (
@@ -24,6 +27,8 @@ const App = () => {
       <Portfolio />
       {/* <Services /> */}
       <Testimonials />
+      <Calender/>
+      <Stats/>
       <Contact />
       <Footer />
       <BackTopBtn />
