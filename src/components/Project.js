@@ -1,22 +1,46 @@
 import React, { useEffect, useState } from 'react';
 
+import { FiExternalLink, FiGithub, FiLink } from "react-icons/fi";
+
+
 const Project = ({ item }) => {
 
   return (
-    <div className='flex flex-col items-center text-center'>
+    <div className='flex flex-col items-center text-center '>
       <div className='mb-8'>
         <img className='rounded-2xl' src={item.image} alt='' />
       </div>
       <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
       <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3>
       <div  key={item.id}>
-      <p className='text-base max-w-md' key={"1"}>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit veniam
-        obcaecati ipsam.ujjwal usj;lds
+      <p className='text-base max-w-md  mb-2 text-justify'>
+         {item.discription}
       </p>
+      <h3 className='text-md mb-2'>Tech Stack</h3>
+     </div>
+      < div>
+        <p className='flex gap-12 capitalize text-accent text-sm mb-4'>
+          {item.stack}
+        </p>
       </div>
+
+
+      <div className="flex gap-12 text-xl">
+        <a href={item.git} target={"blank"}>
+          <p class=" projectGitIcon">
+            <FiGithub />
+          </p>
+        </a>
+        <a href={item.link} target={"blank"}>
+          <p class=" projectGitIcon">
+            <FiExternalLink />
+          </p>
+        </a>
+      </div>
+
       
     </div>  
+   
   
   );
 };

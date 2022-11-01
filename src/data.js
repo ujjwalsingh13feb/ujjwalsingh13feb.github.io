@@ -37,7 +37,8 @@ import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg8 from './assets/img/skills/redux.png';
+import SkillImg9 from './assets/img/skills/postman.png';
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/MEHFOOZ.jpg';
@@ -122,39 +123,53 @@ export const projectsData = [
     id: '1',
     image: Project1,
     name: 'OLX',
-    category: 'UI/UX design',
-  
+    category:'Solo Project',
+    // category: 'UI/UX design',
+    discription: 'Olx-Clone is the potential classified advertisement website that categorizes objects in a user-friendly manner & displayed as an advertisement.., Classifieds can be posted that involve selling, buying, exchanging.',
+    stack:" React || CSS || JS || API || JSON || firebase",
+    git:"https://github.com/ujjwalsingh13feb/OLX",
+    link: "https://resplendent-khapse-8eb3a8.netlify.app/",
   },
   {
     id: '2',
-    image: Project2,
-    name: 'OLX',
-    category: 'web development',
+    image: Project3,
+    name: 'TATA1mg',
+    category:'Team Project',
+    discription: 'This is the clone of TATA 1mg website. A web application to buy medicines and health products that is Ecommerce Website. It was built by 4 members including me from start to finish within a span of a week.',
+    stack:"HTML || CSS || JS || API || JSON ",
+    git:"https://github.com/Aditi101049/1mg-clone",
+    link:"https://serene-fudge-84a1ce.netlify.app/",
+    // category: 'web development',
   },
   {
     id: '3',
-    image: Project3,
-    name: 'TATA1mg',
-    category: 'UI/UX design',
-  },
-  {
-    id: '4',
-    image: Project4,
-    name: 'TATA1mg',
-    category: 'branding',
-  },
-  {
-    id: '5',
     image: Project5,
-    name: 'MOVIE_APP',
-    category: 'web development',
+    name: 'MOVIE APP',
+    category:'Solo Project',
+    discription: "It's a movie app where we can search movie lists and full information about the movie like IMDB rating, cast, and description. Time duration of this project is only one (1) day and it is also my first solo project.",
+    stack:"HTML || CSS || JS",
+    git:"https://github.com/ujjwalsingh13feb/Movie_App",
+    link:"https://sparkling-rabanadas-322e3e.netlify.app/",
+    // category: 'UI/UX design',
   },
-  {
-    id: '6',
-    image: Project6,
-    name: 'MOVIE_APP',
-    category: 'web development',
-  },
+  // {
+  //   id: '4',
+  //   image: Project4,
+  //   name: 'TATA1mg',
+  //   category: 'branding',
+  // },
+  // {
+  //   id: '5',
+  //   image: Project5,
+  //   name: 'MOVIE_APP',
+  //   category: 'web development',
+  // },
+  // {
+  //   id: '6',
+  //   image: Project6,
+  //   name: 'MOVIE_APP',
+  //   category: 'web development',
+  // },
 ];
 
 // projects
@@ -187,6 +202,11 @@ export const skills = [
   {
     image: SkillImg4,
   },
+  
+  {
+    image: "https://chiranjeev-thapliyal.vercel.app/svg/redux.svg"
+  },
+
   {
     image: SkillImg5,
   },
@@ -196,9 +216,8 @@ export const skills = [
   {
     image: SkillImg7,
   },
-  {
-    image: SkillImg8,
-  },
+  
+  
 ];
 
 // services
