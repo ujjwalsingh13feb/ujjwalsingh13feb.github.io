@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.a1712762.css",
-    "main.js": "/static/js/main.b12013f5.js",
+    "main.js": "/static/js/main.4e468faf.js",
     "static/media/ujjwal.jpg": "/static/media/ujjwal.46b203308cb7a45296c5.jpg",
     "static/media/UJJWAL_SINGH.pdf": "/static/media/UJJWAL_SINGH.f8cd23c45db8d929d022.pdf",
-    "static/media/MOVIE2.png": "/static/media/MOVIE2.8fc97d202696311171be.png",
     "static/media/MOVIE.png": "/static/media/MOVIE.6a1d99228887f439b42b.png",
     "static/media/OLX.png": "/static/media/OLX.c3bc18b19c847067670a.png",
     "static/media/ujjwal_photo.webp": "/static/media/ujjwal_photo.d1634a8c10a376d2140c.webp",
@@ -12,6 +11,7 @@
     "static/media/SATYAM.jpg": "/static/media/SATYAM.c2e8a352e2c7158adfad.jpg",
     "static/media/TATABODY.png": "/static/media/TATABODY.448ac284220067300545.png",
     "static/media/OLX2.png": "/static/media/OLX2.430d3bbfa58453ea8578.png",
+    "static/media/LOOSI IT.png": "/static/media/LOOSI IT.572313f6473bb9bb29ba.png",
     "static/media/MEHFOOZ.jpg": "/static/media/MEHFOOZ.3f23a9ae18f441b1e44a.jpg",
     "static/media/TANUJ.jpg": "/static/media/TANUJ.34fd1773eb8318f64d86.jpg",
     "static/media/services.svg": "/static/media/services.0d43785bd1f41e4d0371.svg",
@@ -22,10 +22,10 @@
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.1a85a9f84fc8638af3dd209f3b0e09ca.svg",
     "main.a1712762.css.map": "/static/css/main.a1712762.css.map",
-    "main.b12013f5.js.map": "/static/js/main.b12013f5.js.map"
+    "main.4e468faf.js.map": "/static/js/main.4e468faf.js.map"
   },
   "entrypoints": [
     "static/css/main.a1712762.css",
-    "static/js/main.b12013f5.js"
+    "static/js/main.4e468faf.js"
   ]
 }
