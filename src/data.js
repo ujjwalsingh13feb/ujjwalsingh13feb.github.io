@@ -27,7 +27,7 @@ import Project2 from './assets/img/projects/OLX2.png';
 import Project3 from './assets/img/projects/TATA.png';
 import Project4 from './assets/img/projects/TATABODY.png';
 import Project5 from './assets/img/projects/MOVIE.png';
-import Project6 from './assets/img/projects/MOVIE2.png';
+import Project6 from './assets/img/projects/LOOSI IT.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -70,6 +70,10 @@ export const navigation = [
   {
     name: 'contact',
     href: 'contact',
+  },
+  {
+    name: 'Resume',
+    href: 'Resume',
   },
 ];
 
@@ -150,6 +154,17 @@ export const projectsData = [
     stack:"HTML || CSS || JS",
     git:"https://github.com/ujjwalsingh13feb/Movie_App",
     link:"https://sparkling-rabanadas-322e3e.netlify.app/",
+    // category: 'UI/UX design',
+  },
+  {
+    id: '4',
+    image: Project6,
+    name: 'FITNESS CLUB',
+    category:'Team Project',
+    discription: "Fitness club is an e-commerce website which provides diet plans as well. In this project we have cloned some important features of the website from sign-up to creating diet plan for yourself with decent UI.",
+    stack:"HTML || CSS || JS || API || JSON ",
+    git:"https://github.com/ujjwalsingh13feb/productive-frog-3801",
+    link:"https://fitness-club3801.netlify.app/",
     // category: 'UI/UX design',
   },
   // {
