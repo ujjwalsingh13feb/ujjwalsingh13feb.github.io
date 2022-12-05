@@ -45,6 +45,8 @@ import TestiImage1 from './assets/img/testimonials/MEHFOOZ.jpg';
 import TestiImage2 from './assets/img/testimonials/SATYAM.jpg';
 import TestiImage3 from './assets/img/testimonials/TANUJ.jpg';
 
+import resume from "./assets/img/UJJWAL_SINGH.pdf"
+
 // navigation
 export const navigation = [
   {
@@ -72,7 +74,7 @@ export const navigation = [
     href: 'contact',
   },
   {
-    name: 'Resume',
+    name: <a href={resume} download={true}>Resume</a>,
     href: 'Resume',
   },
 ];
