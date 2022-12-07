@@ -26,7 +26,7 @@ const Hero = () => {
              <a href={resume} download={true}>Resume</a>
             </button>
           </div>
-          <div className=' hidden lg:flex flex-1 justify-end items-end h-full '>
+          <div className=' lg:flex flex-1 justify-end items-end h-full '>
             <img src={ujjwal_photo} alt='' />
           </div>
         </div>
