@@ -12,21 +12,21 @@ const Hero = () => {
     >
       <div className='container mx-auto h-full'>
         <div className='flex items-center h-full pt-8'>
-          <div className='flex-1 flex flex-col items-center lg:items-start'>
+          <div className='flex-1 flex flex-col items-start lg:items-start '>
             <p className='text-lg text-accent text-md mb-[22px]'>
               Hey, I'm Ujjwal! 👋
             </p>
-            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
+            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-5xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
               Full Stack <br /> Web Developer.
             </h1>
-            <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-              Full stack developer who cares deeply about user experience.
+            <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-justify lg:text-justify '>
+              Full stack developer who cares <br/> deeply about user experience.
             </p>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
              <a href={resume} download={true}>Resume</a>
             </button>
           </div>
-          <div className='hidden lg:flex flex-1 justify-end items-end h-full '>
+          <div className=' hidden lg:flex flex-1 justify-end items-end h-full '>
             <img src={ujjwal_photo} alt='' />
           </div>
         </div>

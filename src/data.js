@@ -11,7 +11,8 @@ import {
   FiMail,
   FiMapPin,
   FiLinkedin,
-  FiTwitter
+  FiTwitter,
+  FiDownload
 } from 'react-icons/fi';
 
 // companies icons
@@ -74,7 +75,7 @@ export const navigation = [
     href: 'contact',
   },
   {
-    name: <a href={resume} download={true}>Resume</a>,
+    name: <a href={resume} onClick download={true}>Resume</a>,
     href: 'Resume',
   },
 ];
@@ -295,8 +296,8 @@ export const contact = [
   {
     icon: <FiMail />,
     title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at ujjwalsingh13feb@gmail.com',
+    Mobile: 'Number:8743917324',
+    description: 'Mail:ujjwalsingh13feb@gmail.com',
   },
   {
     icon: <FiMapPin />,
