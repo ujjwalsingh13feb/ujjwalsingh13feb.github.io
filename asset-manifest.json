@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.765d57eb.css",
-    "main.js": "/static/js/main.683afeaf.js",
+    "main.css": "/static/css/main.4ab97d7a.css",
+    "main.js": "/static/js/main.1d425ad9.js",
     "static/media/ujjwal.jpg": "/static/media/ujjwal.46b203308cb7a45296c5.jpg",
-    "static/media/UJJWAL_SINGH.pdf": "/static/media/UJJWAL_SINGH.f8cd23c45db8d929d022.pdf",
+    "static/media/Ujjwal-Singh-Resume.pdf": "/static/media/Ujjwal-Singh-Resume.f8cd23c45db8d929d022.pdf",
     "static/media/MOVIE.png": "/static/media/MOVIE.6a1d99228887f439b42b.png",
     "static/media/OLX.png": "/static/media/OLX.c3bc18b19c847067670a.png",
     "static/media/ujjwal_photo.webp": "/static/media/ujjwal_photo.d1634a8c10a376d2140c.webp",
@@ -21,11 +21,11 @@
     "static/media/about.svg": "/static/media/about.192e39ff229e6eb06083.svg",
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.1a85a9f84fc8638af3dd209f3b0e09ca.svg",
-    "main.765d57eb.css.map": "/static/css/main.765d57eb.css.map",
-    "main.683afeaf.js.map": "/static/js/main.683afeaf.js.map"
+    "main.4ab97d7a.css.map": "/static/css/main.4ab97d7a.css.map",
+    "main.1d425ad9.js.map": "/static/js/main.1d425ad9.js.map"
   },
   "entrypoints": [
-    "static/css/main.765d57eb.css",
-    "static/js/main.683afeaf.js"
+    "static/css/main.4ab97d7a.css",
+    "static/js/main.1d425ad9.js"
   ]
 }
