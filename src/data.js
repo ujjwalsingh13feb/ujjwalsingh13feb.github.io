@@ -46,7 +46,7 @@ import TestiImage1 from './assets/img/testimonials/MEHFOOZ.jpg';
 import TestiImage2 from './assets/img/testimonials/SATYAM.jpg';
 import TestiImage3 from './assets/img/testimonials/TANUJ.jpg';
 
-import resume from "./assets/img/UJJWAL_SINGH.pdf"
+import resume from "./assets/img/Ujjwal-Singh-Resume.pdf"
 
 // navigation
 export const navigation = [
@@ -58,8 +58,9 @@ export const navigation = [
     name: 'about',
     href: 'about',
   },
+  
   {
-    name: 'portfolio',
+    name: 'skills/portfolio',
     href: 'portfolio',
   },
   // {
@@ -75,7 +76,7 @@ export const navigation = [
     href: 'contact',
   },
   {
-    name: <a href={resume} onClick download={true}>Resume</a>,
+    name: <a href={resume} onClick download="Ujjwal-Singh-Resume">Resume</a>,
     href: 'Resume',
   },
 ];
@@ -234,6 +235,18 @@ export const skills = [
   {
     image: SkillImg7,
   },
+  // {
+  //   image:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  // },
+  {
+    image: "https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg",
+  },
+  {
+    image: "https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg",
+  },
+  // {
+  //     image: "https://www.coffeeclass.io/logos/chakra-ui.png",
+  // },
   
   
 ];

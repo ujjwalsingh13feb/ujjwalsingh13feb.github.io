@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 
 import { FiExternalLink, FiGithub, FiLink } from "react-icons/fi";
+import "./common.css"
 
 
 const Project = ({ item }) => {
 
   return (
-    <div className='flex flex-col items-center text-center '>
+    <div className='flex flex-col items-center text-center  style'>
       <div className='mb-8'>
         <img className='rounded-2xl' src={item.image} alt='' />
       </div>

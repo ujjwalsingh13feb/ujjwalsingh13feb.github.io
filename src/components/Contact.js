@@ -9,9 +9,10 @@ const Contact = () => {
     <section className='section bg-primary' id='contact'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
-          <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>
-            Contact me
-          </h2>
+          <h1 className='section-title before:content- relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>
+            Contact
+          </h1>
+          {/* content-contact */}
           <p className='subtitle'>
            If you want to touch with me please fill free to reach me and fill the details.
           </p>
