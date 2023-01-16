@@ -24,8 +24,8 @@ const Calender = () => {
       <GitHubCalendar
         style={{ margin: "auto", marginBottom:"50px",boxShadow:"rgba(0, 0, 0, 0.24) 0px 3px 8px",padding:"2rem",borderRadius:"1rem"}}
         username="ujjwalsingh13feb"
-        transformData={selectLastHalfYear}
-        blockSize={20}
+        // transformData={selectLastHalfYear}
+        blockSize={15}
         fontSize={20}
       >
          <ReactTooltip delayShow={20} html /> 
