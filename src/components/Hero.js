@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import woman image
-import ujjwal_photo from '../assets/img/ujjwal_photo.webp';
+import ujjwal_photo from '../assets/img/ujjwal_photo.png';
 import resume from '../assets/img/Ujjwal-Singh-Resume.pdf'
 
 const Hero = () => {

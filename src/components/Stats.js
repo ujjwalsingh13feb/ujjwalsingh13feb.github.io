@@ -34,7 +34,7 @@ const Stats = () => {
         <a href="https://github.com/ujjwalsingh13feb">
           <img
             align="center"
-          
+            width={"95%"}
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=ujjwalsingh13feb" //launguages
           />
         </a>
