@@ -24,11 +24,13 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
 import Project1 from './assets/img/projects/OLX.png';
-import Project2 from './assets/img/projects/OLX2.png';
-import Project3 from './assets/img/projects/TATA.png';
-import Project4 from './assets/img/projects/TATABODY.png';
+import Project2 from './assets/img/projects/LOOSI IT.png';
+import Project3 from './assets/img/projects/PHARMEASY.png';
+import Project4 from './assets/img/projects/TATA.png';
 import Project5 from './assets/img/projects/MOVIE.png';
-import Project6 from './assets/img/projects/LOOSI IT.png';
+import Project from './assets/img/projects/TATABODY.png';
+
+
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -139,8 +141,30 @@ export const projectsData = [
     link: "https://resplendent-khapse-8eb3a8.netlify.app/",
   },
   {
+    id: '4',
+    image: Project2,
+    name: 'FITNESS CLUB',
+    category:'Team Project',
+    discription: "Fitness club is an e-commerce website which provides diet plans as well. In this project we have cloned some important features of the website from sign-up to creating diet plan for yourself with decent UI.",
+    stack:"reactjs || CSS || API || JSON  || chkra-ui || expressjs || mongodb",
+    git:"https://github.com/ujjwalsingh13feb/productive-frog-3801",
+    link:"https://fitness-club3801.netlify.app/",
+    // category: 'UI/UX design',
+  },
+  {
     id: '2',
     image: Project3,
+    name: 'PharmEasy',
+    category:'Team Project',
+    discription: 'The Clone of Pharmeasy Website , which is one of India most trusted online pharmacy & medical store offering Pharmaceutical and healthcare products.',
+    stack:"redux || nodejs || mongodb || reactjs || expressjs || redux-thunk || firebase-auth || chakra-ui",
+    git:"https://github.com/actuallyakshay/skinny-leg-3425",
+    link:"https://pharaeasyyy.netlify.app/",
+    // category: 'web development',
+  },
+  {
+    id: '2',
+    image: Project4,
     name: 'TATA1mg',
     category:'Team Project',
     discription: 'This is the clone of TATA 1mg website. A web application to buy medicines and health products that is Ecommerce Website. It was built by 4 members including me from start to finish within a span of a week.',
@@ -160,17 +184,7 @@ export const projectsData = [
     link:"https://sparkling-rabanadas-322e3e.netlify.app/",
     // category: 'UI/UX design',
   },
-  {
-    id: '4',
-    image: Project6,
-    name: 'FITNESS CLUB',
-    category:'Team Project',
-    discription: "Fitness club is an e-commerce website which provides diet plans as well. In this project we have cloned some important features of the website from sign-up to creating diet plan for yourself with decent UI.",
-    stack:"HTML || CSS || JS || API || JSON ",
-    git:"https://github.com/ujjwalsingh13feb/productive-frog-3801",
-    link:"https://fitness-club3801.netlify.app/",
-    // category: 'UI/UX design',
-  },
+ 
   // {
   //   id: '4',
   //   image: Project4,
