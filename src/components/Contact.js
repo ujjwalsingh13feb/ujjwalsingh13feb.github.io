@@ -1,10 +1,16 @@
 import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 
 // import contact data
 import { contact } from '../data';
 
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("myyaknge");
+  if (state.succeeded) {
+      return <p>Thanks for joining!</p>;
+  }
+
   return (
     <section className='section bg-primary' id='contact'>
       <div className='container mx-auto'>
@@ -39,19 +45,24 @@ const Contact = () => {
               );
             })}
           </div>
+
+
           <form
+            onSubmit={handleSubmit}
             className='space-y-8 w-full max-w-[780px]'
           >
-            <div className='flex gap-8'>
-              <input className='input' type='text' placeholder='Your name' />
-              <input className='input' type='email' placeholder='Your email' />
+            <div className='flex gap-8' htmlFor="email">
+              <input className='input' type='text' placeholder='Your name' id='name' name='name' />
+              <input className='input' type='email' placeholder='Your email' id='email' name='email' />
             </div>
-            <input className='input' type='text' placeholder='Subject' />
+            <input className='input' type='text' placeholder='Subject' id='subject' name='subject' />
             <textarea
               className='textarea'
               placeholder='Your message'
+              id='Message'
+              name='Message'
             ></textarea>
-            <button className='btn btn-lg bg-accent hover:bg-secondary-hover'>
+            <button className='btn btn-lg bg-accent hover:bg-secondary-hover' type='submit' disabled={state.submitting}>
               Send message
             </button>
           </form>

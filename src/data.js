@@ -78,8 +78,8 @@ export const navigation = [
     href: 'contact',
   },
   {
-    name: <a href={resume} onClick download="Ujjwal-Singh-Resume">Resume</a>,
-    href: 'Resume',
+    name: <a href={resume} target="_blank" onClick download="Ujjwal-Singh-Resume">Resume</a>,
+    href: resume,
   },
 ];
 

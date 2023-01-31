@@ -23,7 +23,7 @@ const Hero = () => {
               Full stack developer who cares <br/> deeply about user experience.
             </p>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-             <a href={resume} download="Ujjwal-Singh-Resume">Resume</a>
+             <a href={resume} target="_blank"  download="Ujjwal-Singh-Resume">Resume</a>
             </button>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-full '>
