@@ -10,7 +10,7 @@ const Portfolio = () => {
       <div className='container mx-auto '>
         <div className='flex flex-col items-center text-center '>
           <h1 className='section-title before:content- relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-3/4 before:hidden before:lg:block'>
-          Portfolio
+          Project
           </h1>
           {/* content-portfolio */}
           <p className='subtitle'>

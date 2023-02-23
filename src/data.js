@@ -62,7 +62,7 @@ export const navigation = [
   },
   
   {
-    name: 'skills/portfolio',
+    name: 'skills/project',
     href: 'portfolio',
   },
   // {
@@ -170,7 +170,7 @@ export const projectsData = [
     discription: 'This is the clone of TATA 1mg website. A web application to buy medicines and health products that is Ecommerce Website. It was built by 4 members including me from start to finish within a span of a week.',
     stack:"HTML || CSS || JS || API || JSON ",
     git:"https://github.com/Aditi101049/1mg-clone",
-    link:"https://serene-fudge-84a1ce.netlify.app/",
+    link:"https://tata1mg-clone.vercel.app/",
     // category: 'web development',
   },
   {
