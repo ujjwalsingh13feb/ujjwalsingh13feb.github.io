@@ -1,7 +1,7 @@
 //  icons
 import {
-  FiYoutube,
-  FiInstagram,
+  // FiYoutube,
+  // FiInstagram,
   FiGithub,
   FiDribbble,
   FiLayout,
@@ -12,7 +12,7 @@ import {
   FiMapPin,
   FiLinkedin,
   FiTwitter,
-  FiDownload
+  // FiDownload
 } from 'react-icons/fi';
 
 // companies icons
@@ -28,7 +28,7 @@ import Project2 from './assets/img/projects/LOOSI IT.png';
 import Project3 from './assets/img/projects/PHARMEASY.png';
 import Project4 from './assets/img/projects/TATA.png';
 import Project5 from './assets/img/projects/MOVIE.png';
-import Project from './assets/img/projects/TATABODY.png';
+// import Project from './assets/img/projects/TATABODY.png';
 
 
 
@@ -40,8 +40,8 @@ import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/redux.png';
-import SkillImg9 from './assets/img/skills/postman.png';
+// import SkillImg8 from './assets/img/skills/redux.png';
+// import SkillImg9 from './assets/img/skills/postman.png';
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/MEHFOOZ.jpg';

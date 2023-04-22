@@ -44,12 +44,12 @@ const NavMobile = () => {
   };
 
   return (
-    <nav className='relative'>
+    <nav className='relative' id="nav-menu">
       <div
         onClick={() => setIsOpen(true)}
         className='cursor-pointer text-white'
       >
-        <MenuAlt3Icon className='w-8 h-8' />
+        <MenuAlt3Icon className='w-8 h-8' id="nav-menu" />
       </div>
 
       {/* circle */}
@@ -58,6 +58,7 @@ const NavMobile = () => {
         initial='hidden'
         animate={isOpen ? 'visible' : 'hidden'}
         className='w-4 h-4 rounded-full bg-accent fixed top-0 right-0'
+        id="nav-menu"
       ></motion.div>
 
       <motion.ul
@@ -71,18 +72,20 @@ const NavMobile = () => {
         <div
           onClick={() => setIsOpen(false)}
           className='cursor-pointer absolute top-8 right-8'
+          id="nav-menu"
         >
-          <XIcon className='w-8 h-8' />
+          <XIcon className='w-8 h-8' id="nav-menu"/>
         </div>
         {navigation.map((item, idx) => {
           return (
-            <li key={idx} className='mb-8'>
+            <li key={idx} className='mb-8' id="nav-menu">
               <Link
                 to={item.href}
                 smooth={true}
                 duration={500}
                 offset={-70}
                 className='text-xl cursor-pointer capitalize'
+                id="nav-menu"
               >
                 {item.name}
               </Link>

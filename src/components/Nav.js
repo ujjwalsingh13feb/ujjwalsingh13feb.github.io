@@ -9,10 +9,11 @@ import { Link } from 'react-scroll';
 const Nav = () => {
   return (
     <nav>
-      <ul className='flex space-x-8 capitalize text-[15px]'>
+      <ul id="nav-menu" className='flex space-x-8 capitalize text-[15px]'>
         {navigation.map((item, idx) => {
           return (
             <li
+              id="nav-menu"
               className='text-white hover:text-accent cursor-pointer'
               key={idx}
             >
