@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.61777a27.css",
-    "main.js": "/static/js/main.28f19b83.js",
+    "main.js": "/static/js/main.33eab07b.js",
     "static/media/ujjwal.jpg": "/static/media/ujjwal.46b203308cb7a45296c5.jpg",
     "static/media/Ujjwal-Singh-Resume.pdf": "/static/media/Ujjwal-Singh-Resume.7cfbe400dbdc60565d42.pdf",
     "static/media/MOVIE.png": "/static/media/MOVIE.6a1d99228887f439b42b.png",
@@ -9,7 +9,6 @@
     "static/media/OLX.png": "/static/media/OLX.c3bc18b19c847067670a.png",
     "static/media/TATA.png": "/static/media/TATA.00b9e247ec2b735eea3c.png",
     "static/media/SATYAM.jpg": "/static/media/SATYAM.c2e8a352e2c7158adfad.jpg",
-    "static/media/TATABODY.png": "/static/media/TATABODY.448ac284220067300545.png",
     "static/media/PHARMEASY.png": "/static/media/PHARMEASY.1ec5a54e22f5d027fe02.png",
     "static/media/LOOSI IT.png": "/static/media/LOOSI IT.572313f6473bb9bb29ba.png",
     "static/media/MEHFOOZ.jpg": "/static/media/MEHFOOZ.3f23a9ae18f441b1e44a.jpg",
@@ -21,10 +20,10 @@
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.1a85a9f84fc8638af3dd209f3b0e09ca.svg",
     "main.61777a27.css.map": "/static/css/main.61777a27.css.map",
-    "main.28f19b83.js.map": "/static/js/main.28f19b83.js.map"
+    "main.33eab07b.js.map": "/static/js/main.33eab07b.js.map"
   },
   "entrypoints": [
     "static/css/main.61777a27.css",
-    "static/js/main.28f19b83.js"
+    "static/js/main.33eab07b.js"
   ]
 }
