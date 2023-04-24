@@ -6,3 +6,4 @@
 ![](HOME.PNG)
 ![](BODY.PNG)
 ![](FOOTER.PNG)
+## npm run deploy

@@ -5,6 +5,8 @@ import ujjwal_photo from '../assets/img/ujjwal_photo.png';
 import resume from '../assets/img/Ujjwal-Singh-Resume.pdf'
 
 const Hero = () => {
+  
+
   return (
     <section
       id='home'
@@ -22,8 +24,8 @@ const Hero = () => {
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-justify lg:text-justify '>
               Full stack developer who cares <br/> deeply about user experience.
             </p>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-             <a href={resume} target="_blank"  download="Ujjwal-Singh-Resume">Resume</a>
+            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all' id="resume-button-1">
+             <a href={resume}  target='_blank'  download="Ujjwal-Singh-Resume">Resume</a>
             </button>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-full '>

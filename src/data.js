@@ -63,7 +63,7 @@ export const navigation = [
   
   {
     name: 'skills/project',
-    href: 'portfolio',
+    href: 'projects',
   },
   // {
   //   name: 'services',
@@ -78,7 +78,8 @@ export const navigation = [
     href: 'contact',
   },
   {
-    name: <a href={resume} target="_blank" onClick download="Ujjwal-Singh-Resume">Resume</a>,
+    
+    name: <a href={resume}  onClick download="Ujjwal-Singh-Resume" id='resume-button-2' >Resume</a>,
     href: resume,
   },
 ];
