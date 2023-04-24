@@ -38,8 +38,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className='font-body text-xl mb-1'>{title}</h4>
-                    <p className='text-accent font-normal'>{Mobile}</p>
-                    <p className='text-accent font-normal '>{description}</p>
+                    <p className='text-accent font-normal' id="contact-phone">{Mobile}</p>
+                    <p className='text-accent font-normal' id="contact-email">{description}</p>
                   </div>
                 </div>
               );
@@ -53,9 +53,12 @@ const Contact = () => {
           >
             <div className='flex gap-8' htmlFor="email">
               <input className='input' type='text' placeholder='Your name' id='name' name='name' />
-              <input className='input' type='email' placeholder='Your email' id='email' name='email' />
+              <input className='input' type='email' placeholder='Your email' id="contact-email" name='email' />
             </div>
+            <div className='flex gap-8'>
             <input className='input' type='text' placeholder='Subject' id='subject' name='subject' />
+            <input className='input' type='Number' placeholder='Your Number' id="contact-phone" name='Number' />
+            </div>
             <textarea
               className='textarea'
               placeholder='Your message'
